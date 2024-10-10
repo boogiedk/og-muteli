@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #282828;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #d1d1d1;
+}
+
+.channels-container {
+    margin-top: 20px;
+}
+
+.channel {
+    background-color: #3a3a3a;
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+}
+
+.channel:hover {
+    background-color: #444;
+}
+
+.channel h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #ffd700; /* Золотистый цвет для заголовков каналов */
+}
+
+.users {
+    list-style-type: none;
+    padding: 0;
+}
+
+.users li {
+    padding: 5px 0;
+}
+
+.users li:nth-child(even) {
+    background-color: #4a4a4a; /* Цвет для четных строк */
+}
+
+.users li:nth-child(odd) {
+    background-color: #3a3a3a; /* Цвет для нечетных строк */
+}
+
+.users li:last-child {
+    padding-bottom: 0; /* Убираем отступ для последнего элемента */
+}
+
+.users li:before {
+    content: "• "; /* Добавление маркера для пользователей */
+    color: #ffd700; /* Цвет маркера */
+}
+
+.users li {
+    font-size: 1em;
+    color: #e0e0e0;
+}
